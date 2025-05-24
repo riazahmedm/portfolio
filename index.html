@@ -1,141 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:site_name" content="Riaz Portfolio" />
-    <meta property="og:title" content="My personal portfolio website" />
-    <meta
-      property="og:description"
-      content="Software Developer pushing pixels to billion of users"
-    />
-    <meta property="og:image" content="assets/img/prthumbnail.JPG" />
-    <meta property="og:type" content="portfolio" />
-    <meta
-      property="og:url"
-      content="https://riazahmedm.github.io/portfolio/"
-    />
-    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 
-    <!--==================== UNICONS ====================-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:site_name" content="Riaz Portfolio" />
+  <meta property="og:title" content="My personal portfolio website" />
+  <meta property="og:description" content="Software Developer pushing pixels to billion of users" />
+  <meta property="og:image" content="assets/img/prthumbnail.JPG" />
+  <meta property="og:type" content="portfolio" />
+  <meta property="og:url" content="https://riazahmedm.github.io/portfolio/" />
+  <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
 
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css" />
 
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <title>Riaz - Personal Portfolio</title>
-  </head>
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Riaz</a>
+  <title>Riaz - Personal Portfolio</title>
+</head>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i> Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-at nav__icon"></i> Contact
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="./art/index.html" class="nav__link">
-                <i class="uil uil-brush-alt nav__icon"></i> Art
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Riaz</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i> About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-at nav__icon"></i> Contact
+            </a>
+          </li>
+          <!-- <li class="nav__item">
+            <a href="./art/index.html" class="nav__link">
+              <i class="uil uil-brush-alt nav__icon"></i> Art
+            </a>
+          </li> -->
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+        <!--==================== CHANGE THEME ====================-->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <div class="nav__btns">
-          <!--==================== CHANGE THEME ====================-->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
 
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
+            <a href="https://www.linkedin.com/in/riaz-ahmed-665a9715b" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              
-              <a
-                href="https://www.linkedin.com/in/riaz-ahmed-665a9715b"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
+            <a href="https://dribbble.com/Riazzzz" target="_blank" class="home__social-icon">
+              <i class="uil uil-dribbble"></i>
+            </a>
 
-              <a
-                href="https://www.instagram.com/riazthetic/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-instagram"></i>
-              </a>
+            <a href="https://www.instagram.com/riazthetic/" target="_blank" class="home__social-icon">
+              <i class="uil uil-instagram"></i>
+            </a>
 
-              <!-- <a href="https://github.com/Riaz10Ahmed" target="_blank" class="home__social-icon">
+            <!-- <a href="https://github.com/Riaz10Ahmed" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a> -->
 
-              <a
-                href="https://dribbble.com/Riaz10Ahmed"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-dribbble"></i>
-              </a>
+            <a href="./art/index.html" target="_blank" class="home__social-icon">
+              <i class="uil uil-brush-alt"></i>
+            </a>
+          </div>
 
-              <a
-                href="./art/index.html"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-brush-alt"></i>
-              </a>
-            </div>
-
-            <!-- <div class="home__img">
+          <!--<div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -152,206 +125,183 @@
                                     <image class="home__blob-img" x='12' y='18' href="assets/img/about.png"/>
                                 </g>
                             </svg>
-                        </div> -->
+                        </div>-->
 
-            <!--==================== GIF ======================-->
-            <div class="home__img">
-              <img src="assets/img/coding.gif" style="border-radius: 35px" />
+          <!--==================== GIF ======================-->
+          <div class="home__img">
+            <img src="assets/img/coding.gif" style="border-radius: 35px" />
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Hi! I'm Riaz</h1>
+            <h3 class="home__subtitle">Software Engineer</h3>
+            <p class="home__description">
+              Pushing pixels to billion of users, <br />
+              since 2019.
+            </p>
+            <a download="" href="assets/pdf/Riaz_Resume.pdf" class="button button--flex" target="_blank">
+              Download CV<i class="uil uil-download-alt button__icon"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">Marshmallows & Minimalist</span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/about.jpeg" alt="profile pic" class="about__img" style="background: #f3f3f3" />
+
+        <div class="about__data">
+          <p class="about__description">
+            Skilled in designing, developing & deploying various web and mobile
+            applications incorporating a range of technologies
+          </p>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">05+</span>
+              <span class="about__info-name">Years <br />
+                experience</span>
             </div>
-
-            <div class="home__data">
-              <h1 class="home__title">Hi! I'm Riaz</h1>
-              <h3 class="home__subtitle">Software Engineer</h3>
-              <p class="home__description">
-                Pushing pixels to billion of users, <br/>
-                since 2019.
-              </p>
-              <a
-                download=""
-                href="assets/pdf/Riaz_Resume.pdf"
-                class="button button--flex"
-                target="_blank"
-              >
-                Download CV<i class="uil uil-download-alt button__icon"></i>
-              </a>
-              
+            <div>
+              <span class="about__info-title">30+</span>
+              <span class="about__info-name">Completed <br />
+                projects</span>
+            </div>
+            <div>
+              <span class="about__info-title">400+</span>
+              <span class="about__info-name">Cups <br />
+                of Coffee</span>
             </div>
           </div>
 
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          <div class="about__buttons">
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
             </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">Marshmallows & Minimalist</span>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">Coffee & Code</span>
 
-        <div class="about__container container grid">
-          <img
-            src="assets/img/about.jpeg"
-            alt="profile pic"
-            class="about__img"
-            style="background: #f3f3f3"
-          />
+      <div class="skills__container container grid">
+        <!--==================== SKILL 1 ====================-->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class="uil uil-brackets-curly skills__icon"></i>
 
-          <div class="about__data">
-            <p class="about__description">
-              Skilled in designing, developing & deploying various web and mobile
-              applications incorporating a range of technologies
-            </p>
-
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">05+</span>
-                <span class="about__info-name"
-                  >Years <br />
-                  experience</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">30+</span>
-                <span class="about__info-name"
-                  >Completed <br />
-                  projects</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">400+</span>
-                <span class="about__info-name"
-                  >Cups <br />
-                  of Coffee</span
-                >
-              </div>
+            <div>
+              <h1 class="skills__title">Web Development</h1>
+              <span class="skills__subtitle">More than 5 years</span>
             </div>
 
-            <div class="about__buttons">
-              <a href="#contact" class="button button--flex">
-                Contact Me <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
+            <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
           </div>
-        </div>
-      </section>
 
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">Coffee & Code</span>
-
-        <div class="skills__container container grid">
-          <!--==================== SKILL 1 ====================-->
-          <div class="skills__content skills__open">
-            <div class="skills__header">
-              <i class="uil uil-brackets-curly skills__icon"></i>
-
-              <div>
-                <h1 class="skills__title">Web Development</h1>
-                <span class="skills__subtitle">More than 5 years</span>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Next</h3>
+                <img src="assets/img/next.png" width="60px" />
+                <!-- <span class="skills__number">90%</span> -->
               </div>
-
-              <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
             </div>
 
-            <div class="skills__list grid">
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Next</h3>
-                  <img src="assets/img/next.png" width="60px" />
-                  <!-- <span class="skills__number">90%</span> -->
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">React</h3>
+                <img src="assets/img/react.png" width="60px" />
+                <!-- <span class="skills__number">90%</span> -->
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">React</h3>
-                  <img src="assets/img/react.png" width="60px" />
-                  <!-- <span class="skills__number">90%</span> -->
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Redux</h3>
-                  <img src="assets/img/redux.png" width="60px" />
-                  <!-- <span class="skills__number">90%</span> -->
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Redux</h3>
+                <img src="assets/img/redux.png" width="60px" />
+                <!-- <span class="skills__number">90%</span> -->
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Angular</h3>
-                  <img src="assets/img/angular.png" width="60px" />
-                  <!-- <span class="skills__number">80%</span> -->
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Bootstrap</h3>
-                  <img src="assets/img/bootstrap.png" width="70px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Angular</h3>
+                <img src="assets/img/angular.png" width="60px" />
+                <!-- <span class="skills__number">80%</span> -->
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">.NET C#/Core/MVC</h3>
-                  <img
-                    src="assets/img/net.png"
-                    width="30px"
-                    style="height: 30px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Azure</h3>
-                  <img
-                    src="assets/img/azure.png"
-                    style="height: 20px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Bootstrap</h3>
+                <img src="assets/img/bootstrap.png" width="70px" />
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">JavaScript/Typescript</h3>
-                  <img src="assets/img/js.png" width="25px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <!-- <div class="skills__data">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">.NET C#/Core/MVC</h3>
+                <img src="assets/img/net.png" width="30px" style="height: 30px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Azure</h3>
+                <img src="assets/img/azure.png" style="height: 20px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript/Typescript</h3>
+                <img src="assets/img/js.png" width="25px" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <!-- <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">JQuery</h3>
                                 <img src="assets/img/jquery.png" width="60px" style="height: 15px !important;"/>
@@ -361,7 +311,7 @@
                             </div>
                         </div> -->
 
-              <!-- <div class="skills__data">
+            <!-- <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">Typescript</h3>
                                 <img src="assets/img/ts.png" width="25px"/>
@@ -371,108 +321,93 @@
                             </div>
                         </div> -->
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">HTML/CSS/SASS/SCSS</h3>
-                  <img src="assets/img/html.png" width="50px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">HTML/CSS/SASS/SCSS</h3>
+                <img src="assets/img/html.png" width="50px" />
               </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Sitecore</h3>
-                  <img
-                    src="assets/img/sitecore.png"
-                    width="60px"
-                    style="height: 30px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Sitecore</h3>
+                <img src="assets/img/sitecore.png" width="60px" style="height: 30px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
             </div>
           </div>
+        </div>
 
-          <!--==================== SKILL 2 ====================-->
-          <div class="skills__content skills__open">
-            <div class="skills__header">
-              <i class="uil uil-mobile-android skills__icon"></i>
+        <!--==================== SKILL 2 ====================-->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class="uil uil-mobile-android skills__icon"></i>
 
-              <div>
-                <h1 class="skills__title">Mobile App Development</h1>
-                <span class="skills__subtitle">More than 5 years</span>
-              </div>
-
-              <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+            <div>
+              <h1 class="skills__title">Mobile App Development</h1>
+              <span class="skills__subtitle">More than 5 years</span>
             </div>
 
-            <div class="skills__list grid">
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">React Native</h3>
-                  <img
-                    src="assets/img/react_native.png"
-                    width="75px"
-                    style="height: 25px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
+            <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+          </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Redux</h3>
-                  <img src="assets/img/redux.png" width="60px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">React Native</h3>
+                <img src="assets/img/react_native.png" width="75px" style="height: 25px !important" />
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Ionic/Angular</h3>
-                  <img
-                    src="assets/img/ionic.png"
-                    width="60px"
-                    style="height: 20px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Azure</h3>
-                  <img
-                    src="assets/img/azure.png"
-                    style="height: 20px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Redux</h3>
+                <img src="assets/img/redux.png" width="60px" />
               </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">JavaScript/Typescript</h3>
-                  <img src="assets/img/js.png" width="25px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
+            </div>
 
-              <!-- <div class="skills__data">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Ionic/Angular</h3>
+                <img src="assets/img/ionic.png" width="60px" style="height: 20px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Azure</h3>
+                <img src="assets/img/azure.png" style="height: 20px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript/Typescript</h3>
+                <img src="assets/img/js.png" width="25px" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <!-- <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">Typescript</h3>
                                 <img src="assets/img/ts.png" width="25px"/>
@@ -482,952 +417,907 @@
                             </div>
                         </div> -->
 
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">HTML/CSS/SASS/SCSS</h3>
-                  <img src="assets/img/html.png" width="50px" />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">HTML/CSS/SASS/SCSS</h3>
+                <img src="assets/img/html.png" width="50px" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
               </div>
             </div>
           </div>
+        </div>
 
-          <!--==================== SKILL 3 ====================-->
-          <div class="skills__content skills__open">
-            <div class="skills__header">
-              <i class="uil uil-swatchbook skills__icon"></i>
+        <!--==================== SKILL 3 ====================-->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class="uil uil-swatchbook skills__icon"></i>
+
+            <div>
+              <h1 class="skills__title">UI/UX Designing</h1>
+              <span class="skills__subtitle">More than 3 years</span>
+            </div>
+
+            <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+          </div>
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Figma</h3>
+                <img src="assets/img/figma.png" width="70px" style="height: 30px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Adobe XD</h3>
+                <img src="assets/img/adobe_xd.png" width="70px" style="height: 15px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Procreate</h3>
+                <img src="assets/img/procreate.png" width="70px" style="height: 30px; width: 30px" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Photoshop</h3>
+                <img src="assets/img/adobe_ps.png" width="70px" style="height: 20px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Illustrator</h3>
+                <img src="assets/img/adobe_ai.png" width="70px" style="height: 25px !important" />
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">Soups & Study</span>
+
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#work">
+            <i class="uil uil-briefcase-alt qualification__icon"></i>
+            Work
+          </div>
+
+          <div class="qualification__button button--flex" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--==================== QUALIFICATION CONTENT 1 ====================-->
+          <div class="qualification__content qualification__active" data-content id="work">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Application Developer</h3>
+                <span class="qualification__subtitle">Mobile CRM</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019 - 2021
+                </div>
+              </div>
 
               <div>
-                <h1 class="skills__title">UI/UX Designing</h1>
-                <span class="skills__subtitle">More than 3 years</span>
-              </div>
-
-              <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
-            </div>
-
-            <div class="skills__list grid">
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Figma</h3>
-                  <img
-                    src="assets/img/figma.png"
-                    width="70px"
-                    style="height: 30px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Adobe XD</h3>
-                  <img
-                    src="assets/img/adobe_xd.png"
-                    width="70px"
-                    style="height: 15px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Procreate</h3>
-                  <img
-                    src="assets/img/procreate.png"
-                    width="70px"
-                    style="height: 30px; width: 30px"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Photoshop</h3>
-                  <img
-                    src="assets/img/adobe_ps.png"
-                    width="70px"
-                    style="height: 20px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <h3 class="skills__name">Illustrator</h3>
-                  <img
-                    src="assets/img/adobe_ai.png"
-                    width="70px"
-                    style="height: 25px !important"
-                  />
-                </div>
-                <div class="skills__bar">
-                  <span class="skills__percentage"></span>
-                </div>
-              </div>
-
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section" id="qualification">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">Soups & Study</span>
-
-        <div class="qualification__container container">
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#work"
-            >
-              <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
-            </div>
-
-            <div
-              class="qualification__button button--flex"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div
-              class="qualification__content qualification__active"
-              data-content
-              id="work"
-            >
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Application Developer</h3>
-                  <span class="qualification__subtitle">Mobile CRM</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2019 - 2021
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Mobile Application Developer
-                  </h3>
-                  <span class="qualification__subtitle">ACS</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2021 - 2025
-                  </div>
-                </div>
-              </div>
-
-              <!--==================== QUALIFICATION 3 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Software Engineer</h3>
-                  <span class="qualification__subtitle">ACS</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2025 - Present
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                </div>
-
-                <div></div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
             </div>
 
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="education">
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">
-                    Diploma in Computer Science
-                  </h3>
-                  <span class="qualification__subtitle"
-                    >Bharath Polytechnic College</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2013 - 2016
-                  </div>
-                </div>
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data">
+              <div></div>
 
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
 
-              <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
-                </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Bachelor in Computer Engineering
-                  </h3>
-                  <span class="qualification__subtitle">Anna University</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2016 - 2019
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!--==================== SERVICES ====================-->
-      <!-- <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What i offer</span>
-
-                <div class="services__container container grid"> -->
-      <!--==================== SERVICE 1 ====================-->
-      <!-- <div class="services__content">
-                        <div>
-                            <i class="uil uil-web-grid services__icon"></i>
-                            <h3 class="services__title">Ui/Ux <br> Designer</h3>
-                        </div>
-
-                        <span class="button button--flex button--link button--small services__button">
-                            View More <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-
-      <!--==================== SERVICE 2 ====================-->
-      <!-- <div class="services__content">
-                        <div>
-                            <i class="uil uil-arrow services__icon"></i>
-                            <h3 class="services__title">Frontend <br> Developer</h3>
-                        </div>
-
-                        <span class="button button--flex button--link button--small services__button">
-                            View More <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Frontend <br> Developer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Coffee In Code Out</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Coffee In Code Out</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Coffee In Code Out</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Coffee In Code Out</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-
-      <!--==================== SERVICE 3 ====================-->
-      <!-- <div class="services__content">
-                        <div>
-                            <i class="uil uil-web-grid services__icon"></i>
-                            <h3 class="services__title">Ui/Ux <br> Designer</h3>
-                        </div>
-
-                        <span class="button button--flex button--link button--small services__button">
-                            View More <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the interface</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-      <!-- </div>
-            </section> -->
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">Watermelon & Works</span>
-
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 11 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio12.png"
-                alt="portfolio 12"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">ACS Life</h3>
-                <p class="portfolio__description">
-                  ACS Life is an end to end Hospitality & Catering Management
-                  solution inclusive of software and required hardware (EPoS,
-                  tablets bar code readers etc).
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Technologies used Next.js, Reaxt, ASP.Net C#, HL7, React Native - Redux -
-                  Typescript Framework for both Android & iOS
-                </p>
-                <!-- <a
-                  href="https://athena.anyaconsultancy.com/"
-                  class="portfolio__button button button--flex button--small"
-                  target="_blank"
-                >
-                  Website
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio7.jpg"
-                alt="portfolio 1"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">MidiUnderground</h3>
-                <p class="portfolio__description">
-                  UK based 24/7 Underground House and Techno Radio station,
-                  Music media and events outlet.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 10px">
-                  Website & Portal - Developed using React, Redux & Bootstrap,
-                  Azure, Devops, Blobs
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Mobile App - Developed using React Native & Redux framework
-                  for both Android & iOS
-                </p>
-                <!-- <a
-                  href="https://www.midiunderground.com/"
-                  class="portfolio__button button button--flex button--small"
-                  target="_blank"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 4 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio9.JPG"
-                alt="portfolio 3"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">P&O Ferries</h3>
-                <p class="portfolio__description">
-                  P&O Ferries has been cemented as a household name for ferry
-                  services, with our fascinating history helping us to become
-                  the reliable and dependable establishment that you know today.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 10px">
-                  API & User Website - Developed using ASP.Net C#, Bootstrap &
-                  Sitecore
-                </p>
-                <p style="font-size: 12px; margin-bottom: 10px">
-                  Mobile App - Developed using React Redux, Ionic Framework for
-                  both Android & iOS
-                </p>
-                <!-- <a
-                  href="https://www.poferries.com/en#route"
-                  class="portfolio__button button button--flex button--small"
-                  target="_blank"
-                >
-                  Website
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio1.jpg"
-                alt="portfolio 1"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">CAMBOFOOD</h3>
-                <p class="portfolio__description">
-                  Cambodia's Most Loved Food Delivery Service. An online food
-                  ordering app that allows user to order food from various
-                  restaurants around them.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using Ionic / Angular framework for both Android &
-                  iOS
-                </p>
-                <!-- <a
-                  href="https://play.google.com/store/apps/details?id=com.mobilecrm.cambofood&hl=en&gl=US"
-                  class="portfolio__button button button--flex button--small"
-                  target="_blank"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio13.jpg"
-                alt="portfolio 1"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Millennium Unit 4 Financials by CODA
+              <div>
+                <h3 class="qualification__title">
+                  Mobile Application Developer
                 </h3>
-                <p class="portfolio__description">
-                  Developed .NET C# scheduled interfaces for connecting P&O
-                  system with Unit4 Financials by CODA
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Technologies: .NET C# Console App, Windows Task Scheduler,
-                  SOAP XML
-                </p>
-                <!-- <a
+                <span class="qualification__subtitle">ACS</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2025
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 3 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Software Engineer</h3>
+                <span class="qualification__subtitle">ACS</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2025 - Present
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+
+              <div></div>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION CONTENT 2 ====================-->
+          <div class="qualification__content" data-content id="education">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">
+                  Diploma in Computer Science
+                </h3>
+                <span class="qualification__subtitle">Bharath Polytechnic College</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2013 - 2016
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+
+              <div>
+                <h3 class="qualification__title">
+                  Bachelor in Computer Engineering
+                </h3>
+                <span class="qualification__subtitle">Anna University</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2016 - 2019
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services" style="display: none">
+      <h2 class="section__title">Services</h2>
+      <span class="section__subtitle">What i offer</span>
+
+      <div class="services__container container grid">
+        <!--==================== SERVICE 1 ====================-->
+        <div class="services__content">
+          <div>
+            <i class="uil uil-web-grid services__icon"></i>
+            <h3 class="services__title">Ui/Ux <br> Designer</h3>
+          </div>
+
+          <span class="button button--flex button--link button--small services__button">
+            View More <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== SERVICE 2 ====================-->
+        <div class="services__content">
+          <div>
+            <i class="uil uil-arrow services__icon"></i>
+            <h3 class="services__title">Frontend <br> Developer</h3>
+          </div>
+
+          <span class="button button--flex button--link button--small services__button">
+            View More <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Frontend <br> Developer</h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Coffee In Code Out</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Coffee In Code Out</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Coffee In Code Out</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Coffee In Code Out</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== SERVICE 3 ====================-->
+        <div class="services__content">
+          <div>
+            <i class="uil uil-web-grid services__icon"></i>
+            <h3 class="services__title">Ui/Ux <br> Designer</h3>
+          </div>
+
+          <span class="button button--flex button--link button--small services__button">
+            View More <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>I develop the interface</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle">Watermelon & Works</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper" style="align-items: center !important;">
+          <!--==================== PORTFOLIO 12 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio12.png" alt="portfolio 12" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">ACS Life</h3>
+              <p class="portfolio__description">
+                ACS Life is an end to end Hospitality & Catering Management
+                solution.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                I worked on this project using Next.js, React.js, Typescript, .NET Core, C#. 
+              </p>
+               <a
+                  href="https://dribbble.com/shots/26065380-ACS-Life-End-to-End-Digital-Catering-Management-Solution"
+                  class="portfolio__button button button--flex button--small"
+                  target="_blank"
+                >
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 14 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio14.png" alt="portfolio 14" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Dallah Patient Meal Ordering</h3>
+              <p class="portfolio__description">
+                Dallah Healthcare is a leading healthcare provider in Saudi Arabia, offering a wide range of medical services.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                I worked on this project using React.js, .NET Core, C#, HL7. Adobe XD for UI/UX design.
+              </p>
+               <a
+                  href="https://dribbble.com/shots/26065206-Dallah-Hospitals-Patient-Meal-Ordering"
+                  class="portfolio__button button button--flex button--small"
+                  target="_blank"
+                >
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 13 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio13.jpg" alt="portfolio 13" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Millennium Unit 4 Financials by CODA
+              </h3>
+              <p class="portfolio__description">
+                Developed .NET C# scheduled interfaces for connecting P&O
+                system with Unit4 Financials by CODA
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Technologies: CODA, .NET C# Console App, Windows Task Scheduler,
+                SOAP XML
+              </p>
+              <a
                   href="https://millenniumconsulting.com/unit4financialsbycoda/"
                   class="portfolio__button button button--flex button--small"
                   target="_blank"
                 >
                   Website
                   <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
+                </a>
             </div>
+          </div>
 
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio2.jpg"
-                alt="portfolio 2"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">CHILLING POINT</h3>
-                <p class="portfolio__description">
-                  A single restaurant app that allows user to order wraps,
-                  sandwiches, burgers, momos, maggi's, desserts, beverages and
-                  many more online
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using Ionic / Angular framework for both Android &
-                  iOS
-                </p>
-                <!-- <a
-                  href="https://play.google.com/store/apps/details?id=com.miimfi.chillingPoint&hl=en_IN&gl=US"
+           <!--==================== PORTFOLIO 9 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio9.png" alt="portfolio 9" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">P&O Ferries</h3>
+              <p class="portfolio__description">
+                P&O Ferries has been cemented as a household name for ferry
+                services in UK.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Web App - Developed using .Net MVC, C#, Bootstrap &
+                Sitecore
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Hybrid Mobile App - Developed using React Native - Redux, Ionic Framework, Scandit
+              </p>
+              <a
+                  href="https://dribbble.com/shots/26048546-P-0-Ferries-Advanced-Passenger-Information"
                   class="portfolio__button button button--flex button--small"
                   target="_blank"
                 >
-                  Demo
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
                   <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
+                </a>
             </div>
+          </div>
 
-            <!--==================== PORTFOLIO 5 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio11.JPG"
-                alt="portfolio 4"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Vitas Household</h3>
-                <p class="portfolio__description">
-                  A Customer and Sales portal developed for Vitas Household.
-                  Vitas is a automated energy savings assistant, giving you back
-                  control of your energy costs and more.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Portal - Developed using React with Redux framework.
-                </p>
-                <!-- <a
-                  href="https://vitashousehold.com/"
+          <!--==================== PORTFOLIO 7 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio7.png" alt="portfolio 7" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">MidiUnderground</h3>
+              <p class="portfolio__description">
+                UK based 24/7 Underground House and Techno Radio station,
+                Music media and events outlet.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Website & Admin Portal - Developed using React.js, Redux & Bootstrap,
+                Azure, Devops, Blobs
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Mobile App - Developed using React Native & Redux framework
+                for both Android & iOS
+              </p>
+              <a
+                  href="https://dribbble.com/shots/26054127-MIDI-Underground"
+                  class="portfolio__button button button--flex button--small"
+                  target="_blank"
+                >
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 15 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio15.jpg" alt="portfolio 15" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Onboarding Hub</h3>
+              <p class="portfolio__description">
+                Onboarding Hub is a comprehensive onboarding solution designed
+                to streamline the process of integrating new employees into an
+                organization.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Admin, Organization & Candidate Web App - Developed using React.js, Redux & Bootstrap,
+                Azure, Devops, Blobs. Adobe XD & Figma for UI/UX design.
+              </p>
+              <a
+                  href="https://dribbble.com/shots/26065000-Onboarding-Hub"
+                  class="portfolio__button button button--flex button--small"
+                  target="_blank"
+                >
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 16 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio16.jpg" alt="portfolio 15" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Murge Eat</h3>
+              <p class="portfolio__description">
+                Murge Eat is a diet based food delivery app that connects users with local restaurants, 
+                allowing them to order food online and have it delivered to their doorstep.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Hybrid Mobile App - Developed using React Native & Redux framework.
+              </p>
+              <a
+                  href="https://dribbble.com/shots/26048749-Murge-Eat-Mobile-App"
+                  class="portfolio__button button button--flex button--small"
+                  target="_blank"
+                >
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+           <!--==================== PORTFOLIO 17 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio17.png" alt="portfolio 17" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">IFF Research - Reporting</h3>
+              <p class="portfolio__description">
+                IFF Research is a leading independent research agency that
+                specializes in providing high-quality research and evaluation
+                services to clients across various sectors.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                Reporting Web App - Developed using Next.js, React Pivot table, Azure, Blobs.
+              </p>
+               <a
+                  href="https://www.iffresearch.com/"
                   class="portfolio__button button button--flex button--small"
                   target="_blank"
                 >
                   Website
                   <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
+                </a>
             </div>
+          </div>
 
-            <!--==================== PORTFOLIO 5 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio6.jpg"
-                alt="portfolio 5"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">QUARALUV</h3>
-                <p class="portfolio__description">
-                  A Birthday App to surprise your loved one.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using Ionic / Angular framework
-                </p>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 6 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio4.jpg"
-                alt="portfolio 6"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">DAILY VEGGIES</h3>
-                <p class="portfolio__description">
-                  App for ordering chopped veggies, traditional spices and herbs
-                  online
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using React Native framework for both Android & iOS
-                </p>
-                <!-- <a href="https://play.google.com/store/apps/details?id=com.miimfi.dailyVeggies&hl=en_IN&gl=US"
-                                class="portfolio__button button button--flex button--small" target="_blank">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 7 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio5.jpg"
-                alt="portfolio 7"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">GHAITH</h3>
-                <p class="portfolio__description">
-                  Ghaith group of companies was established on 2006 by Khalifa
-                  Ghaith Al Kuwari on his strive to deliver a world class
-                  product at the lowest available price, in pursuit of growing
-                  markets.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using HTML, CSS. Javascript & Bootstrap framework
-                </p>
-                <!-- <a
-                  href="https://ghaithgroup.org/"
+          <!--==================== PORTFOLIO 18 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio18.png" alt="portfolio 18" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">MVAT</h3>
+              <p class="portfolio__description">
+                Millennium VAT (MVAT) is a comprehensive VAT management solution designed to 
+                streamline the process of managing Value Added Tax (VAT) for businesses.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 10px">
+                UX Designer - Adobe XD for UI/UX design.
+              </p>
+               <a
+                  href="https://dribbble.com/shots/26049076-Millennium-VAT"
                   class="portfolio__button button button--flex button--small"
                   target="_blank"
                 >
-                  Demo
+                  <img src="assets/img/dribbble.png" alt="dribbble" class="dribbble_img" />
                   <i class="uil uil-arrow-right button__icon"></i>
-                </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 8 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio3.jpg"
-                alt="portfolio 8"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">VACCRM</h3>
-                <p class="portfolio__description">
-                  CRM Mobile App developed for an organization to handle their
-                  tickets, payments, service etc.
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using Ionic / Angular framework for both Android &
-                  iOS
-                </p>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 9 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio8.jpg"
-                alt="portfolio 9"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">CallingBell</h3>
-                <p class="portfolio__description">
-                  A multi feature app focused on asset management, online
-                  groceries ordering, supply and support of all household
-                  products, insurance, event management and many more
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using React Native framework for both Android & iOS
-                </p>
-                <!-- <a href="https://www.midiunderground.com/"
-                                class="portfolio__button button button--flex button--small" target="_blank">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a> -->
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 10 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/portfolio10.png"
-                alt="portfolio 10"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">HungryTripper</h3>
-                <p class="portfolio__description">
-                  A Travel Fintech mobile app for HungryTripper. HungryTripper
-                  is a sustainable travel company focussing on flights, hotels,
-                  activities, and trip customization (along with a social
-                  sharing feature).
-                </p>
-                <p style="font-size: 12px; margin-bottom: 20px">
-                  Developed using React Native & Redux Framework
-                </p>
-              </div>
+                </a>
             </div>
           </div>
 
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          <!--==================== PORTFOLIO 5 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio11.JPG" alt="portfolio 4" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Vitas Household</h3>
+              <p class="portfolio__description">
+                A Customer and Sales portal developed for Vitas Household.
+                Vitas is a automated energy savings assistant, giving you back
+                control of your energy costs and more.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Portal - Developed using React.js with Redux framework.
+              </p>
+            </div>
           </div>
 
-          <div class="swiper-pagination"></div>
+          <!--==================== PORTFOLIO 1 ====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio1.jpg" alt="portfolio 1" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">CAMBOFOOD</h3>
+              <p class="portfolio__description">
+                Cambodia's Most Loved Food Delivery Service. An online food
+                ordering app that allows user to order food from various
+                restaurants around them.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using Ionic / Angular framework for both Android &
+                iOS
+              </p>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio2.jpg" alt="portfolio 2" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">CHILLING POINT</h3>
+              <p class="portfolio__description">
+                A single restaurant app that allows user to order wraps,
+                sandwiches, burgers, momos, maggi's, desserts, beverages and
+                many more online
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using Ionic / Angular framework for both Android &
+                iOS
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 5 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio6.jpg" alt="portfolio 5" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">QUARALUV</h3>
+              <p class="portfolio__description">
+                A Birthday App to surprise your loved one.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using Ionic / Angular framework
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 6 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio4.jpg" alt="portfolio 6" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">DAILY VEGGIES</h3>
+              <p class="portfolio__description">
+                App for ordering chopped veggies, traditional spices and herbs
+                online
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using React Native framework for both Android & iOS
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 7 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio5.jpg" alt="portfolio 7" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">GHAITH</h3>
+              <p class="portfolio__description">
+                Developed a website for Ghaith, a leading provider of
+                innovative solutions in the field of technology and
+                engineering.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using HTML, CSS. Javascript & Bootstrap framework
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 8 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio3.jpg" alt="portfolio 8" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">VACCRM</h3>
+              <p class="portfolio__description">
+                CRM Mobile App developed for an organization to handle their
+                tickets, payments, service etc.
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using Ionic / Angular framework for both Android &
+                iOS
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 9 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio8.jpg" alt="portfolio 9" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">CallingBell</h3>
+              <p class="portfolio__description">
+                A multi feature app focused on asset management, online
+                groceries ordering, supply and support of all household
+                products, insurance, event management and many more
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using React Native framework for both Android & iOS
+              </p>
+            </div>
+          </div> -->
+
+          <!--==================== PORTFOLIO 10 ====================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio10.png" alt="portfolio 10" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">HungryTripper</h3>
+              <p class="portfolio__description">
+                A Travel Fintech mobile app for HungryTripper. HungryTripper
+                is a sustainable travel company focussing on flights, hotels,
+                activities, and trip customization (along with a social
+                sharing feature).
+              </p>
+              <p style="font-size: 12px; margin-bottom: 20px">
+                Developed using React Native & Redux Framework
+              </p>
+            </div>
+          </div> -->
         </div>
-      </section>
 
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section">
-        <div class="project__bg">
-          <div class="project__container container grid">
-            <div class="project__data">
-              <h2 class="project__title">You have a project in mind</h2>
-              <p class="project__description">Let's collab & create!</p>
-              <a href="#contact" class="button button--flex button--white">
-                Contact Me
-                <i class="uil uil-message project__icon button__icon"></i>
-              </a>
-            </div>
-
-            <div class="plane-container">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                width="1131.53px"
-                height="379.304px"
-                viewBox="0 0 1131.53 379.304"
-                enable-background="new 0 0 1131.53 379.304"
-                xml:space="preserve"
-                class="plane"
-              >
-                <polygon
-                  fill="#D8D8D8"
-                  points="72.008,0 274.113,140.173 274.113,301.804 390.796,221.102 601.682,367.302 1131.53,0.223  "
-                />
-                <polygon
-                  fill="#C4C4C3"
-                  points="1131.53,0.223 274.113,140.173 274.113,301.804 390.796,221.102   "
-                />
-              </svg>
-            </div>
-            <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
-          </div>
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
         </div>
-      </section>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
 
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section" style="display: none;">
-        <h2 class="section__title">Testimonial</h2>
-        <span class="section__subtitle">Syntax & Stories</span>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-        <div class="testimonial__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--==================== TESTIMONIAL 1 ====================-->
-            <div class="testimonial__content swiper-slide">
-              <div class="testimonial__data">
-                <div class="testimonial__header">
-                  <img
-                    src="assets/img/t1.jpg"
-                    alt="testimonial pic"
-                    class="testimonial__img"
-                  />
+    <!--==================== PROJECT IN MIND ====================-->
+    <section class="project section">
+      <div class="project__bg">
+        <div class="project__container container grid">
+          <div class="project__data">
+            <h2 class="project__title">You have a project in mind</h2>
+            <p class="project__description">Let's collab & create!</p>
+            <!-- <a href="#contact" class="button button--flex button--white">
+              Contact Me
+              <i class="uil uil-message project__icon button__icon"></i>
+            </a> -->
+          </div>
 
-                  <div>
-                    <h3 class="testimonial__name">Mohamed</h3>
-                    <span class="testimonial__client">Lead Engineer</span>
-                  </div>
+          <div class="plane-container">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" width="1131.53px" height="379.304px" viewBox="0 0 1131.53 379.304"
+              enable-background="new 0 0 1131.53 379.304" xml:space="preserve" class="plane">
+              <polygon fill="#D8D8D8"
+                points="72.008,0 274.113,140.173 274.113,301.804 390.796,221.102 601.682,367.302 1131.53,0.223  " />
+              <polygon fill="#C4C4C3" points="1131.53,0.223 274.113,140.173 274.113,301.804 390.796,221.102   " />
+            </svg>
+          </div>
+          <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
+        </div>
+      </div>
+    </section>
+
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial section" style="display: none;">
+      <h2 class="section__title">Testimonial</h2>
+      <span class="section__subtitle">Syntax & Stories</span>
+
+      <div class="testimonial__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== TESTIMONIAL 1 ====================-->
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/t1.jpg" alt="testimonial pic" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Mohamed</h3>
+                  <span class="testimonial__client">Lead Engineer</span>
                 </div>
+              </div>
 
-                <!-- <div>
+              <!-- <div>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                             </div> -->
-              </div>
-
-              <p class="testimonial__description">
-                Riaz is energetic and passionate at what he does. Punctual and
-                timely deliver of projects. Wishing him best for future
-                endeavors
-              </p>
             </div>
 
-            <!--==================== TESTIMONIAL 2 ====================-->
-            <div class="testimonial__content swiper-slide">
-              <div class="testimonial__data">
-                <div class="testimonial__header">
-                  <img
-                    src="assets/img/t2.jpg"
-                    alt="testimonial pic"
-                    class="testimonial__img"
-                  />
+            <p class="testimonial__description">
+              Riaz is energetic and passionate at what he does. Punctual and
+              timely deliver of projects. Wishing him best for future
+              endeavors
+            </p>
+          </div>
 
-                  <div>
-                    <h3 class="testimonial__name">Manoj</h3>
-                    <span class="testimonial__client">CEO / CamboFood</span>
-                  </div>
+          <!--==================== TESTIMONIAL 2 ====================-->
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/t2.jpg" alt="testimonial pic" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Manoj</h3>
+                  <span class="testimonial__client">CEO / CamboFood</span>
                 </div>
+              </div>
 
-                <!-- <div>
+              <!-- <div>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uil-star testimonial__icon-star"></i>
                             </div> -->
-              </div>
-
-              <p class="testimonial__description">
-                Had a great time working with you Riaz! Thanks for the good
-                product!
-              </p>
             </div>
 
-            <!--==================== TESTIMONIAL 3 ====================-->
-            <div class="testimonial__content swiper-slide">
-              <div class="testimonial__data">
-                <div class="testimonial__header">
-                  <img
-                    src="assets/img/t3.jpg"
-                    alt="testimonial pic"
-                    class="testimonial__img"
-                  />
+            <p class="testimonial__description">
+              Had a great time working with you Riaz! Thanks for the good
+              product!
+            </p>
+          </div>
 
-                  <div>
-                    <h3 class="testimonial__name">Doss</h3>
-                    <span class="testimonial__client">Software Consultant</span>
-                  </div>
+          <!--==================== TESTIMONIAL 3 ====================-->
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/t3.jpg" alt="testimonial pic" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Doss</h3>
+                  <span class="testimonial__client">Software Consultant</span>
                 </div>
+              </div>
 
-                <!-- <div>
+              <!-- <div>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                             </div> -->
-              </div>
-
-              <p class="testimonial__description">
-                Working with you was awesome bro. All the best for the future
-                bro.
-              </p>
             </div>
 
-            <!--==================== TESTIMONIAL 4 ====================-->
-            <div class="testimonial__content swiper-slide">
-              <div class="testimonial__data">
-                <div class="testimonial__header">
-                  <img
-                    src="assets/img/t4.jpg"
-                    alt="testimonial pic"
-                    class="testimonial__img"
-                  />
+            <p class="testimonial__description">
+              Working with you was awesome bro. All the best for the future
+              bro.
+            </p>
+          </div>
 
-                  <div>
-                    <h3 class="testimonial__name">Arun</h3>
-                    <span class="testimonial__client">Software Developer</span>
-                  </div>
+          <!--==================== TESTIMONIAL 4 ====================-->
+          <div class="testimonial__content swiper-slide">
+            <div class="testimonial__data">
+              <div class="testimonial__header">
+                <img src="assets/img/t4.jpg" alt="testimonial pic" class="testimonial__img" />
+
+                <div>
+                  <h3 class="testimonial__name">Arun</h3>
+                  <span class="testimonial__client">Software Developer</span>
                 </div>
+              </div>
 
-                <!-- <div>
+              <!-- <div>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uis-star testimonial__icon-star"></i>
                                 <i class="uil uil-star testimonial__icon-star"></i>
                             </div> -->
-              </div>
-
-              <p class="testimonial__description">
-                Creative mind at best. Good Luck for your future mate. I wish
-                you all success.
-              </p>
             </div>
-          </div>
 
-          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            <p class="testimonial__description">
+              Creative mind at best. Good Luck for your future mate. I wish
+              you all success.
+            </p>
+          </div>
         </div>
-      </section>
 
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Pizza & Plan</span>
+        <div class="swiper-pagination swiper-pagination-testimonial"></div>
+      </div>
+    </section>
 
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-phone contact__icon"></i>
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Pizza & Plan</span>
 
-              <div>
-                <h3 class="contact__title">Call Me</h3>
-                <span class="contact__subtitle">+91 80728 52495</span>
-              </div>
-            </div>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
 
-            <div class="contact__information">
-              <i class="uil uil-envelope contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle">lio10riaz@gmail.com</span>
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle">Chennai</span>
-              </div>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">+91 80728 52495</span>
             </div>
           </div>
 
-          <div class="grid">
-            <img src="assets/img/contact.gif" style="border-radius: 35px" />
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">lio10riaz@gmail.com</span>
+            </div>
           </div>
 
-          <!-- <form action="contactform.php" method="post" class="contact__form grid">
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Chennai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <img src="assets/img/contact.gif" style="border-radius: 35px" />
+        </div>
+
+        <!-- <form action="contactform.php" method="post" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
@@ -1455,34 +1345,34 @@
                         </a>
                     </div>
                 </form> -->
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Riaz</h1>
+          <span class="footer__subtitle">Software Engineer</span>
         </div>
-      </section>
-    </main>
+        <ul class="footer__links">
+          <li>
+            <a href="./art/index.html" class="footer__link">Art</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Riaz</h1>
-            <span class="footer__subtitle">Software Developer</span>
-          </div>
-          <ul class="footer__links">
-            <li>
-              <a href="./art/index.html" class="footer__link">Art</a>
-            </li>
-            <li>
-              <a href="#skills" class="footer__link">Skills</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact</a>
-            </li>
-          </ul>
-
-          <!-- <div class="footer__socials">
+        <!-- <div class="footer__socials">
             <a
                 href="https://www.linkedin.com/in/riaz-ahmed-665a9715b"
                 target="_blank"
@@ -1498,20 +1388,21 @@
               <i class="uil uil-instagram"></i>
             </a>
           </div> -->
-        </div>
-        <p class="footer__copy">With &#9825; Riaz</p>
       </div>
-    </footer>
+      <p class="footer__copy">With &#9825; Riaz</p>
+    </div>
+  </footer>
 
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
 
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
 
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

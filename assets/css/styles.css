@@ -3004,3 +3004,8 @@ img{
         margin-bottom: 60px;
     }
 }
+
+.dribbble_img{
+  width: 80px;
+  filter: invert(1);
+}
