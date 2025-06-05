@@ -826,12 +826,12 @@ img {
 /* :: 10.0 Portfolio Area CSS */
 
 .gallery_area {
-    height: calc(100% - 380px);
+    height: calc(100% - 180px);
     width: calc(100% - 245px);
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
-    top: 200px;
+    top: 100px;
     left: 185px;
     right: 60px;
     padding-right: 45px;
