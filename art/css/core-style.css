@@ -829,6 +829,8 @@ img {
     height: calc(100% - 180px);
     width: calc(100% - 245px);
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth; 
     position: fixed;
     z-index: 1;
     top: 100px;
